@@ -225,13 +225,13 @@ var username = new ListTile(
   //tampilan logo
    var logo =   Center(
       child:   Container(
-        width: 190.0,
-        height: 190.0,
+        width: 300.0,
+        height: 200.0,
         decoration:   BoxDecoration(
           shape: BoxShape.circle,
           image:   DecorationImage(
               fit: BoxFit.fill,
-              image:   NetworkImage("https://imastudio.co.id/wp-content/uploads/2019/07/ima-putih.png")),
+              image:   NetworkImage("http://www.digital-wave.com/images/dart-logo.png")),
         ),
       ),
     );
